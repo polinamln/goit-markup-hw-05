@@ -595,11 +595,6 @@ p, h1,h2,h3,h4,h5,h6{
     fill: var(--cloud);
 }
 
-.footer-form{
-    display: flex;
-    gap: 24px;
-}
-
 .footer-p-subscribe{
     color: var(--white, #FFF);
     font-family: Roboto;
@@ -610,9 +605,6 @@ p, h1,h2,h3,h4,h5,h6{
     margin-bottom: 16px;
 }
 
-.footer-form{
-    display: flex;
-}
 
 .footer-input{
     display: block;
@@ -668,7 +660,6 @@ p, h1,h2,h3,h4,h5,h6{
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-    margin-top: 40px;
 }
 
 .footer-subcribe-btn:hover,
@@ -678,6 +669,12 @@ p, h1,h2,h3,h4,h5,h6{
 
 .footer-btn-svg{
     margin-left: 16px;
+}
+
+.footer-form{
+    display: flex;
+    align-items: baseline;
+    gap: 24px;
 }
 
 /* ~-----------------MODAL------------------ */
