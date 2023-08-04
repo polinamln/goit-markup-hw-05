@@ -600,7 +600,7 @@ p, h1,h2,h3,h4,h5,h6{
     gap: 24px;
 }
 
-.footer-label{
+.footer-p{
     color: var(--white, #FFF);
     font-family: Roboto;
     font-size: 16px;
@@ -645,7 +645,7 @@ p, h1,h2,h3,h4,h5,h6{
     border-radius: 4px;
     border: 0;
     padding: 8px 24px;
-    
+
     display: flex;
     align-items: center;
     gap: 16px;
@@ -804,6 +804,8 @@ input {
     font-weight: 400;
     line-height: 1.17; /* 116.667% */
     letter-spacing: 0.04em;
+    display: block;
+    margin-bottom: 4px;
 }
 
 .modal-icon{
@@ -816,8 +818,8 @@ input {
 }
 
 .modal-input-wrap{
-    margin-top: 4px;
     position: relative;
+    margin-bottom: 16px
 }
 
 .text-area{
@@ -828,17 +830,20 @@ input {
     border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.40));
     outline: transparent;
     resize: none;
-    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-top: 4px;
 
-    color: var(--slate, #434455);
+    color: rgba(46, 47, 66, 0.4);
     font-family: Roboto;
-    font-size: 14px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: 1.5; /* 150% */
-    letter-spacing: 0.02em;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    background-color: transparent; 
+
 }
+
 
 .text-area::placeholder{
     color: var(--navyblue-modal, rgba(46, 47, 66, 0.40));        /* Small Text */

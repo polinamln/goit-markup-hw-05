@@ -541,22 +541,24 @@
         </div>
 
         <div class="modal-field">
-          <label for="text-area" class="modal-label">Comment</label>
-          <textarea class="text-area" name="text-area" id="text-area" placeholder="Text input"></textarea>
+          <label for="user-comment" class="modal-label">Comment</label>
+          <textarea class="text-area" name="user-comment" id="user-comment" placeholder="Text input"></textarea>
         </div>
 
+        <div class="form-modal-check">
+          <input class="modal-check visually-hidden " type="checkbox" name="policy" id="policy" value="true">
+          <label class="modal-check-text" for="policy">
+            <span class="modal-check-mark">
+              <svg class="modal-icon-check" width="10" height="9">
+                <use href="./images/icons.svg#icon-check-mark"></use>
+              </svg>
+            </span>
+            I accept the terms and conditions of the
+            <a class="modal-check-link" href="">Privacy Policy</a> </label>
 
-        <input class="modal-check visually-hidden " type="checkbox" name="policy" id="policy" value="true">
-        <label class="modal-check-text" for="policy">
-          <span class="modal-check-mark">
-            <svg class="modal-icon-check" width="10" height="9">
-              <use href="./images/icons.svg#icon-check-mark"></use>
-            </svg>
-          </span>
-          I accept the terms and conditions of the
-          <a class="modal-check-link" href="">Privacy Policy</a> </label>
+          <button class="modal-btn-send" type="submit">Send</button>
 
-        <button class="modal-btn-send" type="submit">Send</button>
+        </div>
 
       </form>
 
